@@ -13,10 +13,11 @@ function atualizar(id, produto, preco) {
     }    
 
 }
+
 function deletar(id) {
-    listaProdutos.splice(id,1); 
-    
+    listaProdutos.splice(id,1);    
 }
+
 function buscarPorId(id) {
     for(let prod of listaProdutos){
         if(prod.id == id) {
@@ -48,11 +49,6 @@ atualizar(5,"banana",888);
 console.log(buscarPorId(5));
 
 console.log(listaProdutos);
-
-
-
-
-
 
 
 
